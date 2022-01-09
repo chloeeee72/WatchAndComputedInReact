@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Demo1 from './demo1';
+import Demo2 from './demo2';
+import Demo3 from './demo3';
+import Demo4 from './demo4.tsx';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Demo1 />
+    <hr />
+    <Demo2 />
+
+    <hr />
+
+    <Demo3 />
+    <hr />
+    <Demo4 />
   </React.StrictMode>,
   document.getElementById('root')
 );
